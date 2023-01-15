@@ -150,6 +150,10 @@ body {
     color: #eef0dd;
 }
 
+.card-link {
+    text-decoration: none;
+}
+
 /*ACERCA DE MI CSS*/
 
  .col1 {
@@ -162,7 +166,7 @@ body {
  }
 
  .img {
-    width: 45rem;
+    width: 35rem;
     padding-top: 2px;
     border-radius: 0px 60px 0px 60px;
  }
@@ -187,6 +191,19 @@ body {
     padding: 5px;
 
  }
+
+ /*CONTACTO HTML*/
+
+ .form-label {
+    color: #eef0dd;
+ }
+
+ .input-group-text {
+    background-color: #187A8C;
+    color: #eef0dd;
+ }
+
+
 
 
 

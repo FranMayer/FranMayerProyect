@@ -1,0 +1,89 @@
+.carousel-inner {
+    height: 100vh;
+}
+
+.text-carousel {
+    font-size: 18px;
+    color: $thirdColor;
+}
+
+.grid-title {
+    color: $thirdColor;
+    align-items: center;
+    justify-content: center;
+
+    .typing {
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 4px solid $detailsColor;
+        animation: typing 3s infinite alternate;
+    }
+}
+
+@keyframes typing {
+    from {
+    width: 20%;
+    }
+    to {
+    width: 0;
+    }
+}
+
+.card-bg {
+    background-image: url(../multimedia/abstract-blue-black-gradient-blur-wallpaper.jpg);
+
+.card-img {
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+    }
+
+        a {
+            text-decoration: none;
+            color: $thirdColor;
+            font-family: $fontRaleway;
+        }
+
+        .card-link:hover {
+                background-color: $mainColor;
+                border-radius: 0px 40px;
+                transition: 0.9s;
+                padding: 20px;
+        }
+        
+                .p {
+                    color: $thirdColor;
+                    font-weight: 700;
+                    font-family: $fontRaleway;
+                    font-size: 26px;
+                    }
+}
+
+
+.button {
+    background-color: $thirdColor;
+}
+
+.card-color {
+    background-color:  $detailsColor;
+    
+    a {
+        .btn {
+            background-color: $mainColor;
+        }
+    }
+}
+
+.row {
+    height: auto;
+    margin: 15px 0px 15px 0px;
+}
+
+.col-12 {
+    text-align: center;
+    font-family: $fontRaleway;
+}      

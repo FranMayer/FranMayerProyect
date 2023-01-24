@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0A1721;
+  font-family: "raleway";
+  overflow-x: hidden;
+}
+
+.img-size {
+  width: 7rem;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.navbar-toggler {
+  background-color: #EEF0DD;
+}
+
+.nav-item a {
+  color: #EEF0DD;
+  font-family: "raleway";
+  font-size: 20px;
+}
+.nav-item a:hover {
+  background-color: #187A8C;
+  color: #EEF0DD;
+  border-radius: 0px 60px 0px 60px;
+  transition: 0.9s;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.text-carousel {
+  font-size: 18px;
+  color: #EEF0DD;
+}
+
+.grid-title {
+  color: #EEF0DD;
+  align-items: center;
+  justify-content: center;
+}
+.grid-title .typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #187A8C;
+  -webkit-animation: typing 3s infinite alternate;
+          animation: typing 3s infinite alternate;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 20%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 20%;
+  }
+  to {
+    width: 0;
+  }
+}
+.card-bg {
+  background-image: url(../multimedia/abstract-blue-black-gradient-blur-wallpaper.jpg);
+}
+.card-bg .card-img {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.card-bg a {
+  text-decoration: none;
+  color: #EEF0DD;
+  font-family: "raleway";
+}
+.card-bg .card-link:hover {
+  background-color: #0A1721;
+  border-radius: 0px 40px;
+  transition: 0.9s;
+  padding: 20px;
+}
+.card-bg .p {
+  color: #EEF0DD;
+  font-weight: 700;
+  font-family: "raleway";
+  font-size: 26px;
+}
+
+.button {
+  background-color: #EEF0DD;
+}
+
+.card-color {
+  background-color: #187A8C;
+}
+.card-color a .btn {
+  background-color: #0A1721;
+}
+
+.row {
+  height: auto;
+  margin: 15px 0px 15px 0px;
+}
+
+.col-12 {
+  text-align: center;
+  font-family: "raleway";
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: #EEF0DD;
+  font-weight: 400;
+  font-family: raleway;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 25px;
+}
+.footer-container .footer-list .brands {
+  font-size: 35px;
+  margin: 10px;
+  color: #EEF0DD;
+  line-height: 60px;
+}
+.footer-container .footer-list .brands:hover {
+  color: #0A1721;
+  background-color: #EEF0DD;
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+}
+.footer-container .card {
+  color: #EEF0DD;
+}
+.footer-container .card-link {
+  text-decoration: none;
+}
+
+/*pages*/
+.col1 {
+  color: #EEF0DD;
+  font-family: "raleway";
+  font-weight: 500;
+  padding: 50px;
+  font-size: 22px;
+  border-top: 2px solid #EEF0DD;
+}
+
+.img {
+  width: 35rem;
+  padding-top: 2px;
+  border-radius: 0px 60px 0px 60px;
+}
+
+.col4 {
+  color: #EEF0DD;
+  font-family: "raleway";
+  font-weight: 500;
+  font-size: 22px;
+  padding-top: 70px;
+  border-bottom: 2px solid #EEF0DD;
+}
+
+.text-footer {
+  font-size: 25px;
+  color: #EEF0DD;
+  font-weight: 400;
+}
+
+.ft-container {
+  padding: 5px;
+}
+
+.title-text-adm {
+  color: #EEF0DD;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.contacto-title {
+  width: 100%;
+  color: #EEF0DD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  color: #EEF0DD;
+}
+
+.recursos-title h1 {
+  color: #EEF0DD;
+  text-align: center;
+  justify-content: center;
+}
+
+.recursos-main-container {
+  width: auto;
+  background-color: #14455D;
+  border-radius: 60px 60px;
+  padding: 15px;
+  margin: 20px;
+  overflow-y: scroll;
+  height: 500px;
+  font-size: 18px;
+}
+.recursos-main-container::-webkit-scrollbar {
+  width: 10px;
+}
+.recursos-main-container::-webkit-scrollbar::-webkit-scrollbar-track {
+  color: #EEF0DD;
+}
+
+div .card-body .card-title {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #187A8C;
+  color: #EEF0DD;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: #14455D;
+  color: #EEF0DD;
+}
+
+.recursos-card {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #187A8C;
+  color: #EEF0DD;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 60px;
+}
+.recursos-card .blockquote-footer {
+  color: #EEF0DD;
+}
+
+.recursos-hero {
+  font-size: 20px;
+  color: #EEF0DD;
+  margin: 20px;
+  padding: 15px;
+}
+.recursos-hero .hero-text {
+  text-align: center;
+  justify-content: center;
+}
+
+.servicios_container .servicios-title {
+  text-align: center;
+  justify-content: center;
+}
+.servicios_container .servicios-title h1 {
+  color: #EEF0DD;
+}
+.servicios_container .servicios-title p {
+  color: #EEF0DD;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel .slide {
+  border: 2px solid #187A8C;
+}
+
+.item1 {
+  background-image: url(../../multimedia/computerjpg.jpg);
+}/*# sourceMappingURL=estilos.css.map */

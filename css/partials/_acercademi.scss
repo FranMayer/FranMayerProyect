@@ -1,0 +1,40 @@
+.col1 {
+    color: $thirdColor;
+    font-family: $fontRaleway;
+    font-weight: 500;
+    padding: 50px;
+    font-size: 22px;
+    border-top: 2px solid $thirdColor;
+}
+
+.img {
+    width: 35rem;
+    padding-top: 2px;
+    border-radius: 0px 60px 0px 60px;
+}
+
+.col4 {
+    color: $thirdColor;
+    font-family: $fontRaleway;
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 70px;
+    border-bottom: 2px solid $thirdColor;
+}
+
+.text-footer {
+    font-size: 25px;
+    color: $thirdColor;
+    font-weight: 400;
+}
+
+.ft-container {
+    padding: 5px;
+}
+
+.title-text-adm {
+    color: $thirdColor;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

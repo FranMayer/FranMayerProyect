@@ -1,0 +1,25 @@
+.img-size {
+    width: 7rem;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.navbar-toggler {
+    background-color: $thirdColor;
+}
+
+
+.nav-item {
+    a {
+    color: $thirdColor;
+    font-family: "raleway";
+    font-size: 20px;
+
+    &:hover {
+        background-color: $detailsColor;
+        color: $thirdColor;
+        border-radius: 0px 60px 0px 60px;
+        transition: 0.9s;
+        }
+    }
+}

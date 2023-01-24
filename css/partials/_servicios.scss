@@ -1,0 +1,29 @@
+.servicios_container {
+
+
+        .servicios-title {
+            text-align: center;
+            justify-content: center;
+            h1 {
+                color: $thirdColor;
+            }
+
+            p {
+                color: $thirdColor;
+            }
+
+            
+        }
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel .slide {
+    border: 2px solid $detailsColor ;
+}
+
+.item1 {
+    background-image: url(../../multimedia/computerjpg.jpg);
+}

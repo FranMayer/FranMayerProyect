@@ -1,0 +1,37 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color: $thirdColor;
+    font-weight: 400;
+    font-family: raleway;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px;
+
+    .footer-list {
+        .brands {
+            font-size: 35px;
+            margin: 10px;
+            color: $thirdColor;
+            line-height: 60px;
+
+        &:hover {
+            color: $mainColor;
+            background-color: $thirdColor;
+            border-radius: 15px 15px 15px 15px;
+            padding: 10px;
+        }
+        }
+
+    }
+
+.card {
+        color: $thirdColor;
+    }
+
+.card-link {
+        text-decoration: none;
+    }
+}

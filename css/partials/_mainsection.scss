@@ -46,6 +46,14 @@
             text-decoration: none;
             color: $thirdColor;
             font-family: $fontRaleway;
+
+            p {
+                color: $thirdColor;
+                font-weight: 500;
+                font-family: $fontRaleway;
+                font-size: 18px;
+                
+        }
         }
 
         .card-link:hover {
@@ -55,12 +63,6 @@
                 padding: 20px;
         }
         
-                .p {
-                    color: $thirdColor;
-                    font-weight: 700;
-                    font-family: $fontRaleway;
-                    font-size: 26px;
-                    }
 }
 
 
@@ -70,12 +72,28 @@
 
 .card-color {
     background-color:  $detailsColor;
+    border-radius: 60px;
+
+    .card-header {
+        color: $thirdColor;
+    }
     
     a {
         .btn {
             background-color: $mainColor;
         }
     }
+
+.card-body {
+
+    h5 {
+        color: $thirdColor;
+    }
+
+    p {
+        color: $thirdColor;
+    }
+}
 }
 
 .row {

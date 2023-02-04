@@ -11,6 +11,9 @@
     padding: 25px;
 
     .footer-list {
+        display: flex;
+        flex-direction: row;
+
         .brands {
             font-size: 35px;
             margin: 10px;
@@ -21,7 +24,6 @@
             color: $mainColor;
             background-color: $thirdColor;
             border-radius: 15px 15px 15px 15px;
-            padding: 10px;
         }
         }
 

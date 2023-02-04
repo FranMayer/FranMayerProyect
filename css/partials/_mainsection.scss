@@ -1,5 +1,5 @@
 .carousel-inner {
-    height: 100vh;
+    width: 100vw;
 }
 
 .text-carousel {
@@ -22,7 +22,7 @@
 
 @keyframes typing {
     from {
-    width: 20%;
+    width: 30%;
     }
     to {
     width: 0;

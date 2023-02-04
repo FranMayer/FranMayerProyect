@@ -12,14 +12,14 @@
             }
         }
 }
-.carousel-inner {
-    height: 90vh;
-}
+
 .carousel .slide {
     border: 2px solid $detailsColor;
 }
+
 .bg-card-sv {
     background-color: $secondaryColor;
+    width: 15rem;
 
     &:hover {
         opacity: 0.7;

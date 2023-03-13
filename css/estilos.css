@@ -53,9 +53,38 @@ body {
   animation: typing 3s infinite alternate;
 }
 
+.main-description {
+  display: flex;
+  justify-content: center;
+}
+.main-description p {
+  color: #EEF0DD;
+}
+
+.container-video {
+  position: relative;
+}
+
+.container-video video {
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.container-video .texto-superpuesto {
+  position: absolute;
+  z-index: 1;
+  color: #EEF0DD;
+  display: block;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+}
+
 @keyframes typing {
   from {
-    width: 30%;
+    width: 40%;
   }
   to {
     width: 0;
@@ -140,14 +169,14 @@ body {
 }
 .footer-container .footer-list .brands {
   font-size: 35px;
-  margin: 10px;
+  margin: 15px;
   color: #EEF0DD;
   line-height: 60px;
 }
 .footer-container .footer-list .brands:hover {
   color: #0A1721;
   background-color: #EEF0DD;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 60px;
 }
 .footer-container .card {
   color: #EEF0DD;

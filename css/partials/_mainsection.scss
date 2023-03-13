@@ -20,9 +20,43 @@
     }
 }
 
+.main-description {
+    display: flex;
+    justify-content: center;
+
+    p {
+        color: $thirdColor;
+    }
+}
+
+.container-video {
+    position: relative;
+
+}
+
+.container-video video {
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.container-video .texto-superpuesto {
+    position: absolute;
+    z-index: 1;
+    color: $thirdColor;
+    display: block;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 700;
+
+}
+
+
+
 @keyframes typing {
     from {
-    width: 30%;
+    width: 40%;
     }
     to {
     width: 0;
@@ -105,3 +139,4 @@
     text-align: center;
     font-family: $fontRaleway;
 }      
+
